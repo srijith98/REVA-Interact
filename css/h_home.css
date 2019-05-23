@@ -22,6 +22,13 @@
 .tm-nav ul{
 	margin-bottom: 0px;
 }
+
+li a img {
+	display: inline;
+	position: relative;
+    top: 2px;
+    right: 2px;
+}
 body{
 	background: #eeeeee;
 }
@@ -39,6 +46,7 @@ body{
 	line-height: 74.95px; 
 }
 .tm-nav ul li a:hover{
+	transition-duration: 0.2s;
 	color:orange;
 }
 
@@ -87,21 +95,34 @@ ul, ol{
 	margin-top: 20px;
 	margin-bottom: 20px;
 	width:25%;/*30%*/
-	/*width: calc(30% - 20px)*/
 }
 
-/*.tm-sidebar div{
+.tm-sidebar div{
+	margin-top: 50px;
 	background: #fff;
 	padding: 30px;
-}*/
+}
+.tm-sidebar h2 {
+	text-align: center;
+	margin-bottom: 25px;
+}
 
+.tm-sidebar ul {
+	margin-left: 0;
+}
+.tm-sidebar li{
+	list-style-type: none;
+	text-align: left;
+}
 .tm-sidebar a{
 	color: #303030;
 	text-decoration: none;
 } 
 
 .tm-sidebar a:hover{
+	
 	color: orange;
+	transition-duration: 0.2s;
 }
 
 .tm-clearfix::after{

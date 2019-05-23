@@ -37,6 +37,13 @@ body{
 }
 .tm-nav ul li a:hover{
 	color:orange;
+	transition-duration: 0.2s;
+	/*font-size: 1em;
+	border-style: solid;
+	border-color: #eeeeee;
+	padding: 5px;
+	background-color: #eeeeee;
+	border-radius: 5px;*/
 }
 .tm-content{
 	margin-top: 20px;
