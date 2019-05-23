@@ -111,7 +111,7 @@ ul, ol{
 	margin-left: 0;
 }
 .tm-sidebar li{
-	list-style-type: none;
+	list-style-type: circle;
 	text-align: left;
 }
 .tm-sidebar a{
